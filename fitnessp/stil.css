@@ -1,0 +1,41 @@
+body{
+  background-image: url("https://wallpaperaccess.com/full/1244858.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+div{
+  margin: 20em 5em 3em 5em;
+
+  padding: 2em 6em 2em 6em;
+  background: rgb(22, 9, 9);
+background: linear-gradient(117deg, rgba(100, 100, 100, 0.977) 0%, rgba(100, 100, 100, 0.976) 96%, rgb(36, 36, 36) 98%, rgb(36, 36, 36) 98%, rgba(41, 40, 40, 0.586) 98%);
+  color: #ffff;
+  font-family: cursive;
+  border-radius: 1.25rem;
+}
+
+#container_2{
+ display: block;
+ text-align:center;
+  
+}
+.form{
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+#submit{
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  padding: 0.75rem;
+  background: rgb(224, 110, 110);
+  color: inherit;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+textarea{
+  width: 50%;
+}

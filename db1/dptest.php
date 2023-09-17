@@ -1,0 +1,7 @@
+<?php
+
+
+
+require "kayitlistelene.php";
+
+

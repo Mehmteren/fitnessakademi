@@ -1,0 +1,37 @@
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff; /* İkon rengini istediğiniz renkle değiştirebilirsiniz */
+    text-decoration: none;
+}
+
+/* CSS */
+.egzersiz-menu {
+    display: none; /* Başlangıçta gizli */
+    position: absolute;
+    top: 100%; /* Ana menünün altında */
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.egzersiz-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* İlgili ana menü öğesine gelindiğinde alt menüyü göster */
+#egzersizler-menu:hover .egzersiz-menu {
+    display: block;
+}
+
