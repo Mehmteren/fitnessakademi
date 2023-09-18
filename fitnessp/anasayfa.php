@@ -60,16 +60,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="ulasin.php">Bize Ulaşın</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="beslenme.php">Beslenme</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="nav-egzersizler" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Egzersizler
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="nav-egzersizler">
                             <li><a class="dropdown-item" href="kalca.php" id="kalcaEgzersizi">Kalça Egzersizi</a></li>
-                            <li><a class="dropdown-item" href="#" id="kolEgzersizi">Kol Egzersizi</a></li>
-                            <li><a class="dropdown-item" href="#" id="bacakEgzersizi">Bacak Egzersizi</a></li>
-                            <li><a class="dropdown-item" href="#" id="kolEgzersizi">Sırt Egzersizleri</a></li>
-                            <li><a class="dropdown-item" href="#" id="bacakEgzersizi">Karın Egzersizleri</a></li>
+                            <li><a class="dropdown-item" href="kol.php" id="kolEgzersizi">Kol Egzersizi</a></li>
+                            <li><a class="dropdown-item" href="bacak.php" id="bacakEgzersizi">Bacak Egzersizi</a></li>
+                            <li><a class="dropdown-item" href="sirt.php" id="kolEgzersizi">Sırt Egzersizleri</a></li>
+                            <li><a class="dropdown-item" href="karin.php" id="bacakEgzersizi">Karın Egzersizleri</a></li>
                         </ul>
                     </li>
                 </ul>
